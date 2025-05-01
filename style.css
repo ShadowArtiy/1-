@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282829;
+}
+
+.container {
+    max-width: 1900px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+}
+
+/* header */
+
+.container .header {
+    max-width: 1900px;
+    height: 1020px;
+    padding-top: 26px;
+    padding-left: 30px;
+    display: flex;
+    background-color: #222222;
+    color: #fff;
+}
+
+.header .title-menu {
+    width: 1100px;
+    height: 80px;
+    gap: 20px;
+}
+
+.header .title-menu .menu {
+    width: 1000px;
+    height: 80px;
+}
+
+.title-menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    position: relative;
+    left: 250px;
+    bottom: 60px;
+}
+
+.header .title-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Prata;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header .title-menu ul li a:hover {
+    transition: 450ms ease;
+    text-decoration: underline;
+}
+
+.header .title-menu ul li a:not(:hover) {
+    transition: 450ms ease;
+}
+
+.header .title-menu .menu h2 {
+    text-transform: uppercase;
+    font-family: Prata, italic;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.image {
+    width: 800px;
+    height: 1020px;
+    position: relative;
+    bottom: 26px;
+}
+
+.image img {
+    width: 800px;
+    height: 1020px;
+}
+
+.header .text h1 {
+    font-family: Prata;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.header .text h3 {
+    font-family: Prata;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header .text p {
+    font-family: Prata;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header .text p span {
+    font-family: Prata;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.header .text .order {
+    border: none;
+    font-family: Prata, Bold;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    padding: 40px;
+    border-radius: 3px;
+    background-color: #fff;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 4%;
+}
+
+.header .text .order:hover {
+    padding: 43px;
+    background-color: #222222;
+    color: #fff;
+    transition: 350ms ease;
+    border: 1px solid #fff;
+}
+
+.header .text .order:not(:hover) {
+    transition: 350ms ease;
+}
+
+/* Section */
+
+.section {
+    max-width: 1900px;
+    height: auto;
+    background-color: transparent;
+    padding-top: 80px;
+    display: flex;
+}
+
+.section .box {
+    width: 630px;
+    height: 730px;
+}
+
+.section .box img {
+    width: 650px;
+    height: 730px;
+}
+
+.section .box-text {
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 70px;
+    border-bottom: 1px solid #55565A;
+}
+
+.section .-border {
+    border-bottom: none;
+}
+
+.section .box-text p {
+    color: #fff;
+    font-family: Parta;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section .box-text img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    right: 40px;
+}
+
+.section .box .order {
+    padding: 20px 130px;
+    border-radius: 4px;
+    color: black;
+    background-color: #fff;
+    position: relative;
+    left: 160px;
+    top: 60px;
+    text-transform: uppercase;
+    font-family: Parta;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.section .box .order:hover {
+    transition: 250ms ease;
+    border: 1px solid #fff;
+    background-color: #222222;
+    color: #fff;
+    padding: 25px 135px;
+}
+.section .box .order:not(:hover) {
+    transition: 250ms ease;
+}
+
+/* section #2 */
+
+.section1 {
+    padding-top: 100px;
+    max-width: 1900px;
+    height: 800px;
+    display: flex;
+    justify-self: center;
+}
+
+.section1 .big-box {
+    background-color: #fff;
+    width: 1400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+}
+
+.section1 .big-box .box {
+    width: 600px;
+    height: 600px;
+}
+
+.section1 .big-box .box .bg {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    right: 100px;
+    z-index: 0;
+}
+
+.section1 .big-box .box .woman {
+    position: relative;
+    width: 550px;
+    height: 650px;
+    z-index: 2;
+    bottom: 653px;
+    left: 130px;
+}
+
+.section1 .big-box .box .enter-info {
+    width: 500px;
+    height: auto;
+}
+
+#name-ent {
+    width: 500px;
+    height: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 4px;
+    opacity: 50%;
+}
+
+#email-ent {
+    width: 500px;
+    height: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 4px;
+    opacity: 50%;
+}
+
+#accept {
+    position: relative;
+    top: 15px;
+}
+
+.section1 .big-box .box .enter-info p {
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.section1 .big-box .box h2 {
+    font-family: Prata;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section1 .big-box .box .Submit {
+    width: 500px;
+    height: 85px;
+    border-radius: 4px;
+    border: none;
+    background-color: #222222;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.section1 .big-box .box .Submit:hover {
+    transition: 250ms ease;
+    background-color: #fff;
+    border: 1px solid #222222;
+    color: black;
+}
+.section1 .big-box .box .Submit:not(:hover) {
+    transition: 250ms ease;
+}
+
+/* footer */
+
+.footer {
+    max-width: 1900px;
+    height: auto;
+}
+
+.head-footer {
+    width: 1900px;
+    height: 80px;
+    background-color: #222;
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid #D5C9BE;
+    border-bottom: 1px solid #D5C9BE;
+    color: #fff;
+}
+
+.head-footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    left: 37%;
+}
+
+.ft-footer {
+    width: 1900px;
+    height: 200px;
+    background-color: #222;
+    display: flex;
+    padding: 40px 60px;
+    gap: 600px;
+}
+
+.ft-footer .box {
+    color: #fff;
+    width: 500px;
+    height: auto;
+}
+
+.ft-footer .box p {
+    font-family: Parta;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+}
+
+.ft-footer .box span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ft-footer .box .icons {
+    width: 300px;
+    height: auto;
+}
+
+.ft-footer .box h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+    color: #D5C9BE;
+}
+
+.ft-footer .box .order {
+    width: 140px;
+    height: 65px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+}
+
+.ft-footer .box .order:hover {
+    transition: 250ms ease;
+    width: 150px;
+    height: 70px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.ft-footer .box .order:not(:hover) {
+    transition: 250ms ease;
+}
+
+.ft-footer .box h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* ========== Адаптация под 1200px ========== */
+@media (max-width: 1200px) {
+    .container {
+        width: 1000px;
+        padding: 0 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto !important;
+        padding: 20px !important;
+    }
+
+    .header .title-menu {
+        width: 80% !important;
+    }
+
+    .header .title-menu ul {
+        left: 150px !important;
+        bottom: 60px !important;
+        position: relative;
+    }
+
+    .header .text h1 {
+        font-size: 50px !important;
+    }
+
+    .header .text h3 {
+        font-size: 30px !important;
+    }
+
+    .image {
+        width: 40% !important;
+        height: 700px !important;
+        bottom: 0 !important;
+        position: relative;
+        left: 400px;
+    }
+
+    .image img {
+        width: 400px;
+        max-width: 600px;
+        height: 400px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section .box {
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+
+    .section .box img {
+        width: 600px;
+        height: 300px;
+        max-width: 500px;
+        margin: 0 auto 30px;
+        position: relative;
+        top: 50px;
+    }
+
+    .section .box-text {
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 20px;
+    }
+
+    .section .box-text img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section1 .big-box {
+        width: 100% !important;
+        height: auto !important;
+        flex-direction: column;
+    }
+
+    .section1 {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .section1 .big-box .box {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .section1 .big-box .box .woman {
+        display: none;
+    }
+
+    .section1 .big-box .box .bg {
+        display: none;
+    }
+
+    .ft-footer {
+        flex-direction: column;
+        gap: 30px !important;
+        height: auto !important;
+        padding: 20px !important;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ft-footer .box {
+        width: 350px !important;
+    }
+
+    .head-footer p {
+        left: 0 !important;
+        text-align: center;
+    }
+}
+
+/* ========== Адаптация под 720px ========== */
+@media (max-width: 720px) {
+    .header .text h1 {
+        font-size: 40px !important;
+    }
+
+    .header .text h3 {
+        font-size: 25px !important;
+    }
+
+    .header .text p {
+        font-size: 18px !important;
+    }
+
+    .header .text p span {
+        font-size: 25px !important;
+    }
+
+    .header .text .order {
+        padding: 20px !important;
+    }
+
+    .section .box-text p {
+        font-size: 18px !important;
+    }
+
+    .section1 .big-box .box h2 {
+        font-size: 30px !important;
+    }
+
+    #name-ent, #email-ent, .section1 .big-box .box .Submit {
+        width: 100% !important;
+    }
+
+    .image img {
+        width: 70%;
+        max-width: 400px;
+    }
+
+    .section .box img {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .section .box .box-text img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section1 .big-box .box .woman {
+        width: 60% !important;
+        max-width: 300px;
+        left: 20% !important;
+    }
+
+    .section1 .big-box .box .bg {
+        display: none;
+    }
+
+    .ft-footer .box .icons {
+        width: 100% !important;
+    }
+}
+
+
+/* ========== Адаптация под 320px ========== */
+@media (max-width: 320px) {
+    .header .text h1 {
+        font-size: 30px !important;
+    }
+
+    .header .text h3 {
+        font-size: 20px !important;
+    }
+
+    .header .text p {
+        font-size: 16px !important;
+    }
+
+    .header .text p span {
+        font-size: 20px !important;
+    }
+
+    .header .title-menu ul {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .section .box-text img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section .box .order {
+        padding: 15px 50px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+
+    .section1 .big-box {
+        padding: 20px !important;
+    }
+
+    .section1 .big-box .box .Submit {
+        height: 60px !important;
+        font-size: 18px !important;
+    }
+    .image img {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    .section1 .big-box .box .woman {
+        width: 80% !important;
+        max-width: 200px;
+        left: 10% !important;
+    }
+}
